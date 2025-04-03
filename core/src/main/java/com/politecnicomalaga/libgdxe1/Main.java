@@ -38,8 +38,7 @@ public class Main extends ApplicationAdapter {
         shapeRenderer.begin(ShapeRenderer.ShapeType.Filled);
         batch.begin();
         tablero.pintarCelulas(shapeRenderer);
-        menuControles.pintarControles(GRID_SIZE_X,0,batch);
-
+        // menuControles.pintarControles(GRID_SIZE_X,0,batch);
 
         shapeRenderer.end();
         batch.end();
@@ -50,9 +49,6 @@ public class Main extends ApplicationAdapter {
             tablero.inicializarTablero();
         }
     }
-
-
-
 
     @Override
     public void dispose() {

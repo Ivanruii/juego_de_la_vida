@@ -27,7 +27,7 @@ public class Celula extends Cuadrado {
         if (this.viva) {
             shapeRenderer.setColor(Color.WHITE);
         } else {
-            shapeRenderer.setColor(Color.BLACK);
+            shapeRenderer.setColor(Color.RED);
         }
         shapeRenderer.rect(super.getiPosX(), super.getiPosY(), super.getiLado(), super.getiLado());
     }

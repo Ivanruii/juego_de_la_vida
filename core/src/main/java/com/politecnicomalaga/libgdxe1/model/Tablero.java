@@ -73,6 +73,18 @@ public class Tablero {
             {1, -1}, {1, 0}, {1, 1}
         };
 
+        /*direcciones = new int[8][2];
+        int valor = -2;
+        for (int i = 0; i < 9; i++) {
+            //Los valores almacenados siempre estan entre el -1 y el 1
+            if(i%3 == 0) {
+                valor++;
+            }
+
+        }
+        */
+
+
         for (int[] d : direcciones) {
             int nx = x + d[0];
             int ny = y + d[1];
